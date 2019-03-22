@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Assignment7-RSS</string>
+    <string name="knicksfeed">New York Knicks Feed</string>
+    <string name="raptorsfeed">Toronto Raptors Feed</string>
+    <string name="refresh">Refresh</string>
+    <string name="settings">Settings</string>
+    <string name="tvTitleColor">Title Color</string>
+    <string name="tvDateColor">Date Color</string>
+    <string-array name="textColor_spinner" >
+        <item>Black</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Pink</item>
+        <item>White</item>
+    </string-array>
+    <string name="txtTitleSize">Title Text Size</string>
+    <string name="txtItemsDisplay">Number of Items to display</string>
+    <string name="rad_3_items">3</string>
+    <string name="rad_5_items">5</string>
+    <string name="rad_10_items">10</string>
+</resources>

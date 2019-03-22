@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectedItemActivity">
+
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="22dp"
+        android:text="Title goes here"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="20sp"
+        android:autoSizeStepGranularity="1sp"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/etPubDate"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etTitle"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:textSize="10sp"
+        android:focusable="false"
+        android:text="Date goes here" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvDescription"-->
+        <!--android:layout_width="340dp"-->
+        <!--android:layout_height="165dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginStart="26dp"-->
+        <!--android:layout_marginTop="132dp"-->
+        <!--android:text="Description goes here" />-->
+
+    <WebView
+        android:id="@+id/wvContent"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="47dp">
+
+    </WebView>
+</RelativeLayout>
